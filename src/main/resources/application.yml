@@ -1,0 +1,18 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAQRRAW4I5HKTMT6IW
+      secret-key: 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
+    region:
+      static: us-east-2
+      auto: false
+    stack:
+      auto: false
+    sns:
+      arn: arn:aws:sns:us-east-2:037649572410:MyTopic # arn: Amazon Resource Number
+    sqs:
+      queue:
+        name: myQueue
+        url: https://sqs.us-east-2.amazonaws.com/037649572410/myQueue
+
+
